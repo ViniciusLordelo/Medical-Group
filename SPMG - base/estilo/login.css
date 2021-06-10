@@ -1,0 +1,100 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    
+    background-color:#55A2E3;
+}
+
+ .retangulo {
+  
+width: 100vw;
+height: 100vh;
+background-color:#55A2E3;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+} 
+
+.retangulo2 {
+    width: 342px;
+    height: 461px;
+    left: 789px;
+    top: 149px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #0082F0;
+    border-top: 3px solid rgba(0, 0, 0, 0.43);
+    border-left: 3px solid rgba(0, 0, 0, 0.43);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.43);
+}
+
+.retangulo2 img {
+    padding-right: 80px;
+    padding-block-end: 65px;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 342px;
+    height: 461px;
+    border-top: 3px solid rgba(0, 0, 0, 0.43);
+    border-right: 3px solid rgba(0, 0, 0, 0.43);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.43);
+    background: rgb(255, 255, 255);
+}
+
+.form_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+
+
+.content h1 {
+    text-align: center;
+    font-size: 44px;
+    color: #000000;
+}
+
+.form_login input {
+    margin-bottom: 20px;
+    width: 267px;
+    height: 35px;
+    left: 826px;
+    top: 344px;
+    box-sizing: border-box;
+    background: #0082F0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(77, 77, 77);
+    border-image: initial;
+    border-radius: 2px;
+}
+
+.form_login button {
+    width: 100px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+    left: 83px;
+    background: #0082F0;
+}
+
+
+    textarea::placeholder {
+        color: rgb(255, 255, 255);
+      }
+    
+      input::placeholder {
+        color: rgb(255, 255, 255);
+      }

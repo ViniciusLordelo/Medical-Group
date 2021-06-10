@@ -83,4 +83,4 @@ ON C.IdSituacao = S.IdSituacao;
 SELECT dbo.QuantidadeDeMedicos('Anestesiologia') AS [Quantidade de Médicos];
 
 -- Nome e idade de um paciente de acordo com email
-EXEC BuscaIdade 'henrique@gmail.com'
+EXEC BuscaIdade 'giih@gmail.com'
