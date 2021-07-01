@@ -1,27 +1,29 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom';
-import{Route, BrowserRouter as Router, Switch} from 
-'react-router-dom';
+import { Route, BrowserRouter as Router, Switch } from
+  'react-router-dom';
 
 import './index.css';
-
-import App from './App';
+import Login from './Login';
 import Adm from './Adm';
+import Medico from './Medico';
+import Paciente from './Paciente';
 
 import reportWebVitals from './reportWebVitals';
 
 const routing = (
   <Router>
-    <div>   
+    <div>
       <Switch>
-          <Route exact path="/" component={App} />
-          <Route path="/Adm" component={Adm} />
+        <Route exact path="/" component={Login} />
+        <Route path="/Adm" component={Adm} />
+        <Route path="/Paciente" component={Paciente} />
+        <Route path="/Medico" component={Medico} />
       </Switch>
-      </div>
+    </div>
   </ Router>
 )
-  ReactDOM.render(routing, document.getElementById('root'))
+ReactDOM.render(routing, document.getElementById('root'))
 
 
 // If you want to start measuring performance in your app, pass a function

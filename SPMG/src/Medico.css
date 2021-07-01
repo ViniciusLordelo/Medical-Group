@@ -57,22 +57,37 @@ background-position:center ;
     left: 826px;
     top: 344px;
     margin-bottom: 20px; 
-    background-color:#ffffff;
+    background-color:#000000;
+  
     
 }
 
-.input_nome{
-    color:rgb(255, 255, 255);
-    
-}
-
-
-
-
-.form_cadastro1 button{
+.form_cadastro2 input{
     width: 200px;
     height: 40px;
-    color: rgb(255, 255, 255);
+    left: 826px;
+    top: 344px;
+    margin-bottom: 20px; 
+    
+   
+}
+
+
+
+.form_cadastro1 textarea{
+    width: 800px;
+    height: 40px;
+    background-color:#000000;
+    color: #fff;
+    
+    
+    
+}
+
+.form_cadastro2 button{
+    width: 200px;
+    height: 40px;
+    color: white;
     cursor: pointer;
     position: relative;
     text-align: center;
@@ -95,17 +110,29 @@ background-position:center ;
    
 }
 
+.A{
+    padding-left: 80px;
+    width: 800px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-
-
-
+.B{
+    
+    flex-direction: column;
+    width: 400px;
+    height: 240px; 
+    padding-left: 100px;
+}
 
 textarea::placeholder {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.510);
   }
 
   input::placeholder {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255, 0.510);
   }
 
   .section {
@@ -114,7 +141,7 @@ textarea::placeholder {
  
   }
 
+
   .table {
       align-items: center;
-      justify-content: center;
   }

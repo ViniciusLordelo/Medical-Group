@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>spm_group</name>
+    </assembly>
+    <members>
+        <member name="M:spm_group.Controllers.ConsultasController.Listar">
+            <summary>
+            Listar consultas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:spm_group.Controllers.ConsultasController.Cadastrar(spm_group.Domains.Consulta)">
+            <summary>
+            Cadastrar consultas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:spm_group.Controllers.ConsultasController.Deletar(System.Int32)">
+            <summary>
+            deletar consulta
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
