@@ -69,10 +69,10 @@ export default function Adm() {
 
             .then(resposta => {
 
-                if (resposta.status === 202) {
+                if (resposta.status === 201) {
 
                     console.log('Consulta cadastrada!')
-
+                    getConsultas();
 
 
                 }
@@ -106,7 +106,7 @@ export default function Adm() {
                             <input name='nomeMedico' type="number" className="input_nome" placeholder="Nome do Médico" onChange={(event) => setIdMedico(event.target.value)} required />
                             <input name='Situacao' type="number" className="input_nome" placeholder="Situação" onChange={(event) => setIdSituacao(event.target.value)} required />
                             <input name='dataAgendamento' className="input_nome" type="date" onChange={(event) => setDataAgendamento(event.target.value)} required />
-                            <input name='descricao' className="input_nome" type="text" onChange={(event) => setDescricao(event.target.value)}  />
+                            <input name='descricao' className="input_nome" type="text" onChange={(event) => setDescricao(event.target.value)} />
                             <button type="submit">    Cadastrar   </button>
 
                         </form>

@@ -9,13 +9,13 @@ namespace spm_group.Interfaces
     interface ISituacao
     {
 
-        List<Situacao> ListarTodos();
+        List<Situaco> ListarTodos();
 
-        Situacao BuscarPorId(int id);
+        Situaco BuscarPorId(int id);
 
-        void Cadastrar(Situacao clinica);
+        void Cadastrar(Situaco clinica);
 
-        void Atualizar(int id, Situacao clinicaAtualizada);
+        void Atualizar(int id, Situaco clinicaAtualizada);
 
         void Deletar(int id);
 

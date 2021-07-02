@@ -1,8 +1,5 @@
-﻿
-
-using System;
+﻿using System;
 using System.Collections.Generic;
-
 
 #nullable disable
 
@@ -19,9 +16,6 @@ namespace spm_group.Domains
 
         public virtual Medico IdMedicoNavigation { get; set; }
         public virtual Paciente IdPacienteNavigation { get; set; }
-        public virtual Situacao IdSituacaoNavigation { get; set; }
-
-        public virtual Especialidade IdEspecialidadeNavigation { get; set; }
-
+        public virtual Situaco IdSituacaoNavigation { get; set; }
     }
 }

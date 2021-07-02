@@ -114,7 +114,8 @@ textarea::placeholder {
  
   }
 
-  .table {
+  .tbody table {
       align-items: center;
       justify-content: center;
+      
   }

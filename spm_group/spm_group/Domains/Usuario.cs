@@ -21,7 +21,5 @@ namespace spm_group.Domains
         public virtual TiposUsuario IdTipoUsuarioNavigation { get; set; }
         public virtual ICollection<Medico> Medicos { get; set; }
         public virtual ICollection<Paciente> Pacientes { get; set; }
-
-
     }
 }

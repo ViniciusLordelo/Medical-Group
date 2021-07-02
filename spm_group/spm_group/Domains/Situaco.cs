@@ -5,9 +5,9 @@ using System.Collections.Generic;
 
 namespace spm_group.Domains
 {
-    public partial class Situacao
+    public partial class Situaco
     {
-        public Situacao()
+        public Situaco()
         {
             Consulta = new HashSet<Consulta>();
         }

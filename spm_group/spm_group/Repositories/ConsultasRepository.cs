@@ -103,7 +103,7 @@ namespace spm_group.Repositories
 
 
                         //LISTA SE O PACIENTE ESTA COM AS CONSULTAS AGENDADAS, CANCELADAS OU REALIZADA (COM NOMES REAIS)
-                        IdSituacaoNavigation = new Situacao
+                        IdSituacaoNavigation = new Situaco
                         {
                             IdSituacao = c.IdSituacaoNavigation.IdSituacao,
                             Titulo = c.IdSituacaoNavigation.Titulo
@@ -165,7 +165,7 @@ namespace spm_group.Repositories
 
 
 
-                        IdSituacaoNavigation = new Situacao
+                        IdSituacaoNavigation = new Situaco
                         {
                             IdSituacao = c.IdSituacaoNavigation.IdSituacao,
                             Titulo = c.IdSituacaoNavigation.Titulo
